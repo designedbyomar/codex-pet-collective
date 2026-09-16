@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "pets": [
+    {
+      "id": "dj-bandit",
+      "name": "DJ Bandit",
+      "description": "A record-scratching raccoon DJ who dances, spins vinyl, and moonwalks backwards through every beat.",
+      "creator": "Omar Tavarez",
+      "creatorUrl": "https://www.designedbyomar.com/",
+      "license": "CC BY 4.0",
+      "path": "pets/dj-bandit"
+    }
+  ]
+}

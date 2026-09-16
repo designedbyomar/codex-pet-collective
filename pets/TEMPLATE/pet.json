@@ -1,0 +1,7 @@
+{
+  "id": "your-pet-id",
+  "displayName": "Your Pet Name",
+  "description": "A short, friendly description of your pet.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}
