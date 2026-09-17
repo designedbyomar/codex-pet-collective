@@ -15,6 +15,8 @@ DJ Bandit is a record-scratching raccoon with a sky-blue cap, a pink-and-blue va
 | DJ Bandit | [Omar Tavarez](https://www.designedbyomar.com/) | CC BY 4.0 | [`pets/dj-bandit`](pets/dj-bandit/) |
 | Kira | [Omar Tavarez](https://www.designedbyomar.com/) | CC BY 4.0 | [`pets/kira`](pets/kira/) |
 
+![Kira motion preview](pets/kira/preview.gif)
+
 ## Install a pet
 
 1. Download or clone this repository.
@@ -29,7 +31,7 @@ The Collective is built to grow. Read [CONTRIBUTING.md](CONTRIBUTING.md), duplic
 
 ## Project site
 
-The project site is published with GitHub Pages from [`site/`](site/). The deployment workflow validates the catalog, copies release previews, and builds the browser-ready roster before deploying.
+The project site is published with GitHub Pages from [`site/`](site/). The deployment workflow validates the catalog, copies release previews, and builds the browser-ready roster before deploying—so every approved pet preview appears on the homepage without a manual image edit.
 
 ## Credits
 

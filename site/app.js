@@ -42,10 +42,14 @@ fetch("data/pets.json")
     return response.json();
   })
   .then(({ pets }) => {
+    roster.replaceChildren();
     pets
       .sort((a, b) => Number(b.featured) - Number(a.featured) || a.name.localeCompare(b.name))
       .forEach((pet) => roster.appendChild(petCard(pet)));
   })
   .catch(() => {
-    roster.innerHTML = '<p class="roster-error">The pet roster is loading from the latest release. Visit GitHub to browse the collection.</p>';
+    const message = document.createElement("p");
+    message.className = "roster-error";
+    message.textContent = "The pet roster is loading from the latest release. Visit GitHub to browse the collection.";
+    roster.replaceChildren(message);
   });
