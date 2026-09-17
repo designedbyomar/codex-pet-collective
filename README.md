@@ -1,18 +1,19 @@
 # Codex Pet Collective
 
-An open collection of expressive, installable pets for Codex—made by people who care about a little more personality in the tools they use.
+An open collection of expressive, installable pets for Codex—made by people who care about a little more personality in the tools they use. DJ Bandit is our launch pet; Kira is the first addition to a roster designed to grow.
 
 ![DJ Bandit, the launch pet](site/assets/dj-bandit-hero.png)
 
-## Meet DJ Bandit
+## Launch pet: DJ Bandit
 
-DJ Bandit is a record-scratching raccoon with a sky-blue cap, a pink-and-blue vacation shirt, and a signature backwards moonwalk. He is the first release in the Collective.
+DJ Bandit is a record-scratching raccoon with a sky-blue cap, a pink-and-blue vacation shirt, and a signature backwards moonwalk. He remains the featured launch pet in the Collective.
 
 ![DJ Bandit motion preview](pets/dj-bandit/preview.gif)
 
 | Pet | Creator | License | Download |
 | --- | --- | --- | --- |
 | DJ Bandit | [Omar Tavarez](https://www.designedbyomar.com/) | CC BY 4.0 | [`pets/dj-bandit`](pets/dj-bandit/) |
+| Kira | [Omar Tavarez](https://www.designedbyomar.com/) | CC BY 4.0 | [`pets/kira`](pets/kira/) |
 
 ## Install a pet
 
@@ -24,15 +25,14 @@ Each pet folder contains its `pet.json` manifest and `spritesheet.webp`. The man
 
 ## Add your own pet
 
-The Collective is built to grow. Read [CONTRIBUTING.md](CONTRIBUTING.md), duplicate [`pets/TEMPLATE`](pets/TEMPLATE/), add your pet, and open a pull request. Every accepted pet stays credited to its creator.
+The Collective is built to grow. Read [CONTRIBUTING.md](CONTRIBUTING.md), duplicate [`pets/TEMPLATE`](pets/TEMPLATE/), add your pet and one entry to [`pets/catalog.json`](pets/catalog.json), then open a pull request. The Pages site validates that catalog and renders new roster cards automatically. Every accepted pet stays credited to its creator.
 
 ## Project site
 
-The project site is published with GitHub Pages from [`site/`](site/). Once this repository is pushed to GitHub, enable **Pages → GitHub Actions** in repository settings; the included workflow will deploy it.
+The project site is published with GitHub Pages from [`site/`](site/). The deployment workflow validates the catalog, copies release previews, and builds the browser-ready roster before deploying.
 
 ## Credits
 
 Created and curated by [Omar Tavarez](https://www.designedbyomar.com/) · **Designed by Omar**
 
 The project and its launch pet are licensed under [CC BY 4.0](LICENSE). Contributors retain credit for their own work and agree to publish their submitted assets under the same license.
-

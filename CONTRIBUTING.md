@@ -7,8 +7,9 @@ Thanks for helping give Codex more character.
 1. Fork the repository and create a branch.
 2. Copy `pets/TEMPLATE` to `pets/<pet-id>` using lowercase letters, numbers, and hyphens.
 3. Add a valid `pet.json`, `spritesheet.webp`, `preview.gif`, and a short pet README with creator attribution.
-4. Run the v2 atlas validation before opening a pull request.
-5. Add your pet to the gallery table in the root README and include a screenshot or GIF in the pull request.
+4. Add one complete entry to `pets/catalog.json`, including species, actions, preview filename, and `featured: false`.
+5. Run the v2 atlas validation and `python3 tools/build_site_catalog.py` before opening a pull request.
+6. Include a screenshot or GIF in the pull request. The Pages roster is generated from the catalog, so no site-card edit is needed.
 
 ## Pet requirements
 
@@ -25,4 +26,3 @@ Every contribution must name its creator in the pet README and be released under
 ## Review
 
 Maintainers check technical validity, visual coherence, animation readability, and attribution before merging. We may ask for targeted changes rather than restyling a pet without your approval.
-

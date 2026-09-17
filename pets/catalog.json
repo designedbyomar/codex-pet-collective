@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "pets": [
     {
       "id": "dj-bandit",
@@ -8,7 +8,24 @@
       "creator": "Omar Tavarez",
       "creatorUrl": "https://www.designedbyomar.com/",
       "license": "CC BY 4.0",
-      "path": "pets/dj-bandit"
+      "path": "pets/dj-bandit",
+      "species": "Raccoon",
+      "actions": ["Scratch", "Moonwalk", "Dance"],
+      "preview": "preview.gif",
+      "featured": true
+    },
+    {
+      "id": "kira",
+      "name": "Kira",
+      "description": "A playful calico ninja cat who flips, purrs, and keeps a watchful jade-eyed guard.",
+      "creator": "Omar Tavarez",
+      "creatorUrl": "https://www.designedbyomar.com/",
+      "license": "CC BY 4.0",
+      "path": "pets/kira",
+      "species": "Calico ninja cat",
+      "actions": ["Flip", "Purr", "Review"],
+      "preview": "preview.gif",
+      "featured": false
     }
   ]
 }
