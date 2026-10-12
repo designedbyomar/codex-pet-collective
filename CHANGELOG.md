@@ -1,12 +1,12 @@
 # Changelog
 
-## Unreleased — DJ Bandit idle candidate (draft)
+## Unreleased — DJ Bandit livelier idle and jump repair
 
 - Added the approved six-frame idle nod/blink/sway and real-speed previews.
-- Included the previously repaired work row from the installed pet as the release baseline; preserved all non-idle rows relative to that installed baseline.
+- Included the previously repaired work row from the installed pet as the release baseline; preserved all nine rows outside idle and jump pixel-for-pixel.
 - Cleared obsolete artwork from unused idle cell 6; the candidate passes v2 structural validation.
 - Documented the app-controlled work-to-idle fallback; this is not a continuous-work playback fix.
-- Release hold: full motion QA detected an existing stationary jump row (0 px lift). Do not merge or install until a separately approved repair passes that gate.
+- Repaired the stationary jump with a compact hop: 17 px lift and a 1 px landing delta. Full motion QA and Pets structural preflight pass.
 
 ## Unreleased — Kira joins the crew
 

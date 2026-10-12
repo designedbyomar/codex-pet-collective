@@ -6,7 +6,7 @@ The launch pet for Codex Pet Collective. DJ Bandit is a smooth, compact raccoon 
 
 **License:** [CC BY 4.0](../../LICENSE)
 
-> Draft update: the livelier idle artwork is approved, but this branch is not release-ready. The full motion-quality gate found a pre-existing stationary jump row (0 px lift). Installation and merge are on hold pending a separately approved repair.
+The updated idle and repaired jump pass structural and motion-quality validation. The jump now visibly lifts and lands; the other nine rows remain pixel-identical to the installed baseline.
 
 ## Animation behavior
 
