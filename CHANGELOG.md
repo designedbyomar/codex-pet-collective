@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased — DJ Bandit at the decks
+
+- Reworked the six-frame scratching loop with a confident grin, and evened out his size across all sixteen pointer-following poses.
+- Rebuilt the package preview, site scratch loop, and atlas overview from the updated pet.
+
 ## Unreleased — DJ Bandit livelier idle and jump repair
 
 - Added the approved six-frame idle nod/blink/sway and real-speed previews.

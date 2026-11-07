@@ -6,9 +6,9 @@ The launch pet for Codex Pet Collective. DJ Bandit is a smooth, compact raccoon 
 
 **License:** [CC BY 4.0](../../LICENSE)
 
-Bandit keeps a consistent size as he turns to follow the pointer: the right- and left-facing poses are now 190 and 187 pixels tall, with both feet on the same baseline. [Watch the look sweep](../../docs/dj-bandit/look-sweep.gif). Idle, jump, scratching, and the other standard animations are unchanged from the previous release.
+Bandit keeps a consistent size as he turns to follow the pointer: the right- and left-facing poses are now 190 and 187 pixels tall, with both feet on the same baseline. [Watch the look sweep](../../docs/dj-bandit/look-sweep.gif).
 
-The [new scratching expression](../../docs/dj-bandit/deck-expression-proof.png) is a single concept pose for review, not part of the installed animation.
+At the decks he now wears a sideways grin through all six frames as he pushes the record forward, pulls it back, and works the mixer. [Watch the scratch loop](../../site/assets/dj-bandit-preview.gif). The other eight standard animations are unchanged.
 
 ## Animation behavior
 
